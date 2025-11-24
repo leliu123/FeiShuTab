@@ -1,0 +1,10 @@
+package com.lea.feishutab.feature.aichat.data.chat
+
+data class ChatMessage(
+    val id : Long,
+    val text: String,
+    val isUser: Boolean,
+    val isLoading: Boolean = false,
+    val timestamp: Long = System.currentTimeMillis(),
+)
+
