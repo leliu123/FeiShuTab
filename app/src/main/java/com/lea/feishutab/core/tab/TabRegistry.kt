@@ -1,7 +1,7 @@
 package com.lea.feishutab.core.tab
 
-import com.lea.feishutab.core.protocol.ITabProvider
-import com.lea.feishutab.core.protocol.TabLifecycle
+import com.lea.feishulibrary.protocol.ITabProvider
+import com.lea.feishulibrary.protocol.TabLifecycle
 
 /**
  * Tab注册中心 - 管理所有注册的Tab

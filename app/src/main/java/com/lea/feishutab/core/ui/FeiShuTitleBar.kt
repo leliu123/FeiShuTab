@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.lea.feishutab.core.protocol.TitleBarAction
+import com.lea.feishulibrary.protocol.TitleBarAction
 
 /**
  * 仿飞书风格的TitleBar

@@ -3,9 +3,9 @@ package com.lea.feishutab.feature.message
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Call
 import androidx.compose.runtime.Composable
-import com.lea.feishutab.core.protocol.ITabProvider
-import com.lea.feishutab.core.protocol.TabContext
-import com.lea.feishutab.core.protocol.TabLifecycle
+import com.lea.feishulibrary.protocol.ITabProvider
+import com.lea.feishulibrary.protocol.TabContext
+import com.lea.feishulibrary.protocol.TabLifecycle
 
 /**
  * 消息Tab提供者

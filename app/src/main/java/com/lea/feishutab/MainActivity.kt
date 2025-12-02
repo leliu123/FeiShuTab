@@ -28,6 +28,7 @@ import com.lea.feishutab.core.tab.TabContainer
 import com.lea.feishutab.core.tab.TabRegistry
 import com.lea.feishutab.feature.message.MessageTabProvider
 import com.lea.feishutab.feature.aichat.AIChatTabProvider
+import com.lea.aichat.AiChatProvider
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,8 +36,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             // 注册所有Tab
             // 这里可以注册多个Tab，框架会自动管理
-            TabRegistry.registerTab(MessageTabProvider())
-            TabRegistry.registerTab(AIChatTabProvider())
+
+            TabRegistry.registerTab(AiChatProvider() )
             // 可以继续注册其他Tab...
             // TabRegistry.registerTab(OtherTabProvider())
 

@@ -22,7 +22,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.lea.feishutab.core.protocol.TabContext
+import com.lea.feishulibrary.protocol.TabContext
 import java.text.SimpleDateFormat
 import java.util.*
 

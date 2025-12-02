@@ -11,9 +11,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.lea.feishutab.core.protocol.TabContext
-import com.lea.feishutab.core.protocol.TabTheme
-import com.lea.feishutab.core.protocol.TitleBarAction
+import com.lea.feishulibrary.protocol.TabContext
+import com.lea.feishulibrary.protocol.TabTheme
+import com.lea.feishulibrary.protocol.TitleBarAction
 import com.lea.feishutab.core.ui.FeiShuTitleBar
 
 /**

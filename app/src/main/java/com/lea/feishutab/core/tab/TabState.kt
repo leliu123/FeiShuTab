@@ -1,6 +1,6 @@
 package com.lea.feishutab.core.tab
 
-import com.lea.feishutab.core.protocol.ITabProvider
+import com.lea.feishulibrary.protocol.ITabProvider
 
 /**
  * Tab容器的UI状态
